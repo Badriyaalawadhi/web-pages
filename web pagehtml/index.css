@@ -1,0 +1,166 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.img-logo {
+    width: 304px;
+    height: 228px;
+
+}
+
+.img-pic
+{
+    
+    width: 50px;
+    height: 50px;
+   
+}
+.img-rest {
+
+
+width: 200px; 
+height: 128px;
+border: double; color: red;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    padding: 0 48px;
+  }
+
+  h4 {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0 48px;
+     
+  }
+
+table, th, td {
+    border: 1px solid black;
+    width: 78px; 
+    height: 58px;
+  }
+  .small-nav ,
+  .main-header{
+   padding: 0 48px;
+
+  }
+
+  .small-nav {
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+   
+  }
+  body{
+   font-family: 'Times New Roman', Times, serif;
+   
+  }
+  .small-nav > .links{ 
+    display: flex;
+    gap: 10px;
+  }
+  .small-nav a{
+    text-decoration: none;
+    color:black;
+  }
+  .small-nav a:hover{
+    text-decoration: underline;
+   
+  }
+  .small-nav .lists{
+    display: flex;
+    gap: 10px;
+  }
+  .small-nav .lists ul {
+    display: none;
+  }
+
+  .small-nav .lists .list {
+    background-color:rgba(255, 186, 57, 0.685);
+    padding: 7px 11px;
+    margin: 7px 0;
+    font-size: 0.800rem;
+    cursor: pointer;
+  }
+
+  .small-nav .lists .list > div::after {
+    content: '';
+    display: inline-block;
+    border-top: 5px solid black;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    margin-left: 7px;
+  }
+
+  .small-nav .lists .list:hover {
+    background-color: beige;
+  }
+  .small-nav .lists .list:hover > ul {
+    display: block;
+  }
+  .small-nav .lists .list {
+    position: relative;
+  }
+  .small-nav .lists .list ul {
+    position: absolute;
+    top: 100%;
+    background-color: beige;
+    border: 1px solid black;
+    width: 100%;
+    left:0;
+    padding: 5px 0;
+  }
+
+  .small-nav .lists .list ul li{
+  
+    padding: 5px ;
+  }
+  .small-nav .lists .list ul li:hover {
+    background-color: rgba(255, 186, 57, 0.685);
+  }
+
+#main-header .logo{
+    text-transform:uppercase;
+    font-size: 2.5rem;
+    color:rgb(243, 72, 72);
+  text-align:center   
+}
+
+#main-header .logo span{
+    background-color: orange;
+}
+
+#main-header .logo span:last-child{
+    background-color: rgb(243, 72, 72);
+    color: orange;
+    
+}
+
+.food-menu  {
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    padding: 0 48px;
+    
+}
+.food-list {
+    list-style-type:circle;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    padding: 0 5px;
+ 
+}
+
+b {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    padding: 0 30px;
+
+}
